@@ -1,4 +1,4 @@
-# Homework 03 - Task 1
+# Homework 02 JavaScript
 
 **Task3:** Write a JavaScript program to generate a random password of a specified length. You need to define the criteria for a valid password. Here are some recommendations for setting these criteria:
 - Determine the minimum length of the password.
