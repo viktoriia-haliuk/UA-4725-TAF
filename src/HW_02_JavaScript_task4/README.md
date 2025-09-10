@@ -1,7 +1,6 @@
 # Homework 02 JavaScript
 
-* Task 4
-Create a script to validate a web form. Your script should include the following functionalities and checks:
+**Task 4:** Create a script to validate a web form. Your script should include the following functionalities and checks:
 - **Required Fields Validation**: Ensure that all required fields are filled out. For example, fields like 'Name', 'Email', and 'Password' should not be left empty.
 - **Email Format Validation**: Validate the email address format to ensure it meets standard email formatting (e.g., user@example.com). Use regular expressions to check if the email entered by the user is in the correct format.
 - **Password Strength Check**: Implement a password strength validator. The password should meet certain criteria to be considered strong, such as a minimum length (e.g., 8 characters), the inclusion of uppercase and lowercase letters, numbers, and special characters.

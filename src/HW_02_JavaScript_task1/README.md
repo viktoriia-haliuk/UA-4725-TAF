@@ -1,6 +1,6 @@
 # Homework 02 JavaScript
 
-**Task1:** Write a function that checks if a specific text is present on a web page.
+**Task 1:** Write a function that checks if a specific text is present on a web page.
 
 ## How to test:
 1. Open the website https://www.greencity.cx.ua/#/greenCity.

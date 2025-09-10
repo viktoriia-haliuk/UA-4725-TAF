@@ -1,6 +1,6 @@
 # Homework 02 JavaScript
 
-**Task2:** Write a function that filters an array of numbers, returning only those numbers that are greater than a specified value.
+**Task 2:** Write a function that filters an array of numbers, returning only those numbers that are greater than a specified value.
 
 ## How to test:
 1. Open the file `hw_02_task2.js` in any JavaScript runtime (Node.js or browser console).
