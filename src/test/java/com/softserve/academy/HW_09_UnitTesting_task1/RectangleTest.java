@@ -56,7 +56,7 @@ public class RectangleTest{
         Rectangle rectangle = new Rectangle(width,height);
         assertEquals(expectedArea, rectangle.calculateArea(), 1e-6);
 
-    };
+    }
 
     @ParameterizedTest(name = "Perimeter of {0}x{1} should be {2}")
     @DisplayName("Perimeter should be calculated properly")
@@ -70,7 +70,7 @@ public class RectangleTest{
         Rectangle rectangle = new Rectangle(width,height);
         assertEquals(expectedPerimeter, rectangle.calculatePerimeter(), 1e-6);
 
-    };
+    }
 
     @ParameterizedTest (name = "Diagonal of {0}x{1} should be {2}")
     @DisplayName("Diagonal should be calculated properly")
@@ -84,7 +84,7 @@ public class RectangleTest{
         Rectangle rectangle = new Rectangle(width,height);
         assertEquals(expectedDiagonal, rectangle.calculateDiagonal(), 1e-6);
 
-    };
+    }
 
 //Negative scenarios
 

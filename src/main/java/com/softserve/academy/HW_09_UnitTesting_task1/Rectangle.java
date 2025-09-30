@@ -44,15 +44,15 @@ public class Rectangle {
     public double calculateArea(){
         return this.width * this.height;
 
-    };
+    }
 
     public double calculatePerimeter(){
         return 2*(this.width + this.height);
-    };
+    }
 
     public double calculateDiagonal() {
         return Math.sqrt(this.width * this.width + this.height * this.height);
-    };
+    }
 
     private void validateDimensions() {
         if (width <= 0 || height <= 0) {
