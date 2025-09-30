@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.softserve.academy.HW_09_UnitTesting_task1.RectangleTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.429 s -- in com.softserve.academy.HW_09_UnitTesting_task1.RectangleTest
