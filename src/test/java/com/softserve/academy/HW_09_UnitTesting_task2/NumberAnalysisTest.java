@@ -45,6 +45,13 @@ public class NumberAnalysisTest {
     }
 
     @Test
+    @DisplayName("Should return false for a number that was removed (even)")
+    public void testContainsNumberAfterRemoval() {
+        analysis.removeEvenNumbers();
+        assertFalse(analysis.containsNumber(8));
+    }
+
+    @Test
     @DisplayName("Should return true when a number is present")
     public void testContainsNumberTrue() {
         assertTrue(analysis.containsNumber(8));
@@ -95,8 +102,6 @@ public class NumberAnalysisTest {
         NumberAnalysis emptyAnalysis = new NumberAnalysis(new ArrayList<>());
         assertEquals(0.0, emptyAnalysis.findAverage());
     }
-
-
 
 
 }

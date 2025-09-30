@@ -92,21 +92,37 @@ public class RectangleTest{
     @DisplayName("IllegalArgumentException should be thrown when width <= 0")
     public void testSetWidthWithInvalidValues() {
         Rectangle rectangle = new Rectangle();
-        assertThrows(IllegalArgumentException.class, () -> rectangle.setWidth(0),
-                "IllegalArgumentException should be thrown");
-        assertThrows(IllegalArgumentException.class, () -> rectangle.setWidth(-5),
-                "IllegalArgumentException should be thrown");
+        assertThrows(IllegalArgumentException.class, () -> rectangle.setWidth(0));
+        assertThrows(IllegalArgumentException.class, () -> rectangle.setWidth(-5));
     }
 
     @Test
     @DisplayName("IllegalArgumentException should be thrown when height <= 0")
     public void testSetHeightWithInvalidValues() {
         Rectangle rectangle = new Rectangle();
-        assertThrows(IllegalArgumentException.class, () -> rectangle.setHeight(0),
-                "IllegalArgumentException should be thrown");
-        assertThrows(IllegalArgumentException.class, () -> rectangle.setHeight(-10),
-                "IllegalArgumentException should be thrown");
+        assertThrows(IllegalArgumentException.class, () -> rectangle.setHeight(0));
+        assertThrows(IllegalArgumentException.class, () -> rectangle.setHeight(-10));
     }
 
+    @Test
+    @DisplayName("IllegalArgumentException should be thrown when rectangle is created with non-positive width")
+    public void testConstructorWithInvalidWidth() {
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(0, 5));
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(-3, 7));
+    }
+
+    @Test
+    @DisplayName("IllegalArgumentException should be thrown when rectangle is created with non-positive height")
+    public void testConstructorWithInvalidHeight() {
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(5, 0));
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(4, -6));
+    }
+
+    @Test
+    @DisplayName("IllegalArgumentException should be thrown when rectangle is created with non-positive height")
+    public void testConstructorWithInvalidHeightAndWidth() {
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(0, 0));
+        assertThrows(IllegalArgumentException.class, () -> new Rectangle(-14, -9));
+    }
 
 }

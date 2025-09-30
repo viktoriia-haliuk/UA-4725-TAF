@@ -15,7 +15,7 @@ public class NumberAnalysis {
         ArrayList<Integer> randomNumbers = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < 20; i++) {
-            randomNumbers.add(random.nextInt(100) + 1); // числа від 1 до 100
+            randomNumbers.add(random.nextInt(100) + 1);
         }
         return randomNumbers;
     }

@@ -11,6 +11,9 @@ public class Rectangle {
     }
 
     public Rectangle(double width, double height) {
+        if (width <= 0 || height <= 0) {
+            throw new IllegalArgumentException("Width and height must be > 0");
+        }
         this.width = width;
         this.height = height;
     }
@@ -20,7 +23,7 @@ public class Rectangle {
     }
 
     public void setWidth(double width) {
-        if(width<=0){
+        if (width <= 0) {
             throw new IllegalArgumentException("Width must be > 0");
         }
         this.width = width;
@@ -31,32 +34,28 @@ public class Rectangle {
     }
 
     public void setHeight(double height) {
-        if(height<=0){
+        if (height <= 0) {
             throw new IllegalArgumentException("Height must be > 0");
         }
         this.height = height;
+
     }
 
     public double getAngle() {
         return angle;
     }
 
-    public double calculateArea(){
+    public double calculateArea() {
         return this.width * this.height;
 
     }
 
-    public double calculatePerimeter(){
-        return 2*(this.width + this.height);
+    public double calculatePerimeter() {
+        return 2 * (this.width + this.height);
     }
 
     public double calculateDiagonal() {
         return Math.sqrt(this.width * this.width + this.height * this.height);
     }
-
-    private void validateDimensions() {
-        if (width <= 0 || height <= 0) {
-            throw new IllegalStateException("Width and height must be > 0");
-        }}
 
 }
