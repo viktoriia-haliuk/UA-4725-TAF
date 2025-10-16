@@ -1,0 +1,7 @@
+email,expectedEmailErrorMessage
+plainaddress, Please check if the email is written correctly
+@missingusername.com, Please check if the email is written correctly
+username@.com, Please check if the email is written correctly
+username@domain, Please check if the email is written correctly
+"username@domain,comma", Please check if the email is written correctly
+space in@email.com, Please check if the email is written correctly

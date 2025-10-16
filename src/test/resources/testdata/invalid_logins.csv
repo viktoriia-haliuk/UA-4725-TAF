@@ -1,0 +1,3 @@
+email,passwordKey,expectedEmailMessage, expectedPasswordMessage
+invalid1, INVALID_PASSWORD_1, "Please check if the email is written correctly", "Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.)"
+invalid2, INVALID_PASSWORD_2, "Please check if the email is written correctly", "Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.)"
