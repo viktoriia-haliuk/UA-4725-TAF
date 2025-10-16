@@ -1,0 +1,3 @@
+email,passwordKey,expectedUserName
+tegusi1@yopmail.com, VALID_PASSWORD_1,Tegusi
+galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
