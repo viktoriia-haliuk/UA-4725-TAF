@@ -1,0 +1,36 @@
+[ INFO] 17:06:48 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi ===
+[ INFO] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:41 - Running login test for email: tegusi1@yopmail.com
+[TRACE] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Fetching password from environment for key: VALID_PASSWORD_1
+[TRACE] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:47 - Attempting login via SignInFunctions...
+[DEBUG] 17:07:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Sign-in completed for email: tegusi1@yopmail.com
+[TRACE] 17:07:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:51 - Fetching displayed username from UI...
+[ERROR] 17:07:11 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 17:07:13 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa ===
+[ INFO] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:41 - Running login test for email: galpa2@yopmail.com
+[TRACE] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Fetching password from environment for key: VALID_PASSWORD_2
+[TRACE] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:47 - Attempting login via SignInFunctions...
+[DEBUG] 17:07:27 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Sign-in completed for email: galpa2@yopmail.com
+[TRACE] 17:07:27 main SignInPositiveTest:shouldVerifySuccessfulLogin:51 - Fetching displayed username from UI...
+[ERROR] 17:07:28 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 17:15:54 main SignInNegativeTest:setUpBeforeEach:63 - === Starting test: [1] invalid1, INVALID_PASSWORD_1, Please check if the email is written correctly, Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.) ===
+[ INFO] 17:16:11 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:19 - Running test for invalid credentials: invalid1
+[DEBUG] 17:16:11 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:23 - Entering credentials and verifying error messages...
+[ INFO] 17:16:13 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:27 - Error message verification completed for: invalid1
+[ INFO] 17:16:13 main SignInNegativeTest:tearThis:85 - ✅ Test PASSED: [1] invalid1, INVALID_PASSWORD_1, Please check if the email is written correctly, Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.)
+[ INFO] 17:16:16 main SignInNegativeTest:setUpBeforeEach:63 - === Starting test: [2] invalid2, INVALID_PASSWORD_2, Please check if the email is written correctly, Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.) ===
+[ INFO] 17:16:29 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:19 - Running test for invalid credentials: invalid2
+[DEBUG] 17:16:29 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:23 - Entering credentials and verifying error messages...
+[ INFO] 17:16:30 main SignInNegativeTest:shouldVerifyBothInvalidEmailAndPassword:27 - Error message verification completed for: invalid2
+[ INFO] 17:16:30 main SignInNegativeTest:tearThis:85 - ✅ Test PASSED: [2] invalid2, INVALID_PASSWORD_2, Please check if the email is written correctly, Password have from 8 to 20 characters long without spaces and contain at least one uppercase letter (A-Z), one lowercase letter (a-z), a digit (0-9), and a special character (~`!@#$%^&*()+=_-{}[]|:;”’?/<>,.)
+[ INFO] 17:38:31 main SignInNegativeTest:setUpBeforeEach:63 - === Starting test: [1] SignInTestData{email='tegusi1@yopmail.com', passwordKey='NOT_MATCHED_PASSWORD', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Bad password', expectedGeneralErrorMessage=''} ===
+[ INFO] 17:38:48 main SignInNegativeTest:shouldVerifyErrorShownForWrongPassword:172 - Running test for wrong password: email=tegusi1@yopmail.com, passwordKey=NOT_MATCHED_PASSWORD
+[DEBUG] 17:38:48 main SignInNegativeTest:shouldVerifyErrorShownForWrongPassword:176 - Entering valid email with incorrect password...
+[DEBUG] 17:38:52 main SignInNegativeTest:shouldVerifyErrorShownForWrongPassword:181 - Expected general error message: 
+[ INFO] 17:38:52 main SignInNegativeTest:shouldVerifyErrorShownForWrongPassword:182 - Wrong password error verified for: tegusi1@yopmail.com
+[ INFO] 17:38:52 main SignInNegativeTest:tearThis:85 - ✅ Test PASSED: [1] SignInTestData{email='tegusi1@yopmail.com', passwordKey='NOT_MATCHED_PASSWORD', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Bad password', expectedGeneralErrorMessage=''}
+[ INFO] 17:55:56 main SignInUITest:setUpBeforeEach:63 - === Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi ===
+[ INFO] 17:56:16 main SignInUITest:tearThis:85 - ✅ Test PASSED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 17:56:20 main SignInUITest:setUpBeforeEach:63 - === Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa ===
+[ INFO] 17:56:35 main SignInUITest:tearThis:85 - ✅ Test PASSED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 18:02:48 main SignInUITest:setUpBeforeEach:63 - === Starting test: Verify input fields accept data and button becomes enabled ===
+[ INFO] 18:03:07 main SignInUITest:tearThis:85 - ✅ Test PASSED: Verify input fields accept data and button becomes enabled

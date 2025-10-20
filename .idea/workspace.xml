@@ -4,43 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b91a06-b3ae-40e4-8ed3-452b944e2f5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/data/SignInDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/data/SignInMethodSources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/data/SignInTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/functional/SignInAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/functional/SignInFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/pages/LoginPageExpectedTexts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/RunnerExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/SignInBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/SignInNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/SignInPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/SignInUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_13_ConstructingScripts/tests/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/empty_credential_fields.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/invalid_emails.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/invalid_logins.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/invalid_passwords.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/valid_logins.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/wrong_password_case.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UA-4725-TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UA-4725-TAF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UA-4725-TAF.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.softserve.academy.HW_09_UnitTesting_task1.RectangleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.softserve.academy.HW_09_UnitTesting_task2.NumberAnalysisTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.softserve.academy.HW_09_UnitTesting_task1.RectangleTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.softserve.academy.HW_09_UnitTesting_task2.NumberAnalysisTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_09_UnitTesting/task1/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_09_UnitTesting/task1/RectangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_09_UnitTesting/task2/NumberAnalysisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_09_UnitTesting/task2/NumberAnalysisTest.class" afterDir="false" />
+    <list default="true" id="35b91a06-b3ae-40e4-8ed3-452b944e2f5f" name="Changes" comment="HW 10-13">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +54,11 @@
     "JUnit.SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword (1).executor": "Run",
     "JUnit.SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword.executor": "Run",
     "JUnit.SignInNegativeTest.shouldVerifyEmptyFieldsErrorMessages.executor": "Run",
+    "JUnit.SignInNegativeTest.shouldVerifyErrorShownForWrongPassword.executor": "Debug",
     "JUnit.SignInPositiveTest.executor": "Run",
     "JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (1).executor": "Run",
+    "JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (2).executor": "Run",
+    "JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (3).executor": "Run",
     "JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin.executor": "Run",
     "JUnit.SignInTest (1).executor": "Run",
     "JUnit.SignInTest (2).executor": "Run",
@@ -117,7 +87,10 @@
     "JUnit.SignInTest.verifyWelcomeText.executor": "Run",
     "JUnit.SignInTest.virifyLoginFormsOpen.executor": "Run",
     "JUnit.SignInUITest.executor": "Run",
+    "JUnit.SignInUITest.shouldVerifyEmailField.executor": "Run",
     "JUnit.SignInUITest.shouldVerifyTitle.executor": "Run",
+    "JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled (1).executor": "Run",
+    "JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled.executor": "Run",
     "Maven.UA-4725-TAF [clean].executor": "Run",
     "Maven.UA-4725-TAF [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -136,92 +109,94 @@
       <recent name="C:\Users\ogaly\IdeaProjects\UA-4725-TAF\src\test\resources\testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (1)">
-    <configuration name="SignInNegativeTest.shouldVerifyEmptyFieldsErrorMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled (1)">
+    <configuration name="SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UA-4725-TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softserve.academy.HW_13_ConstructingScripts.tests.*" />
+          <option name="PATTERN" value="com.softserve.academy.HW_14_Loggs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests.SignInNegativeTest" />
-      <option name="METHOD_NAME" value="shouldVerifyEmptyFieldsErrorMessages(com.softserve.academy.HW_13_ConstructingScripts.data.SignInTestData)" />
+      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_14_Loggs.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_14_Loggs.tests.SignInNegativeTest" />
+      <option name="METHOD_NAME" value="shouldVerifyBothInvalidEmailAndPassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInNegativeTest.shouldVerifyErrorShownForWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UA-4725-TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softserve.academy.HW_13_ConstructingScripts.tests.*" />
+          <option name="PATTERN" value="com.softserve.academy.HW_14_Loggs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests.SignInPositiveTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignInPositiveTest.shouldVerifySuccessfulLogin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UA-4725-TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.softserve.academy.HW_13_ConstructingScripts.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests.SignInPositiveTest" />
-      <option name="METHOD_NAME" value="shouldVerifySuccessfulLogin(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_14_Loggs.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_14_Loggs.tests.SignInNegativeTest" />
+      <option name="METHOD_NAME" value="shouldVerifyErrorShownForWrongPassword(com.softserve.academy.HW_14_Loggs.data.SignInTestData)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInPositiveTest.shouldVerifySuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInPositiveTest.shouldVerifySuccessfulLogin (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UA-4725-TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softserve.academy.HW_13_ConstructingScripts.tests.*" />
+          <option name="PATTERN" value="com.softserve.academy.HW_14_Loggs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests.SignInPositiveTest" />
-      <option name="METHOD_NAME" value="shouldVerifySuccessfulLogin(com.softserve.academy.HW_13_ConstructingScripts.data.SignInTestData)" />
+      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_14_Loggs.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_14_Loggs.tests.SignInPositiveTest" />
+      <option name="METHOD_NAME" value="shouldVerifySuccessfulLogin(com.softserve.academy.HW_14_Loggs.data.SignInTestData)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInUITest.verifyFieldsInputAndButtonEnabled (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UA-4725-TAF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softserve.academy.HW_13_ConstructingScripts.tests.*" />
+          <option name="PATTERN" value="com.softserve.academy.HW_14_Loggs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_13_ConstructingScripts.tests.SignInUITest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_14_Loggs.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_14_Loggs.tests.SignInUITest" />
+      <option name="METHOD_NAME" value="verifyFieldsInputAndButtonEnabled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInUITest.verifyFieldsInputAndButtonEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UA-4725-TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.academy.HW_14_Loggs.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.softserve.academy.HW_14_Loggs.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.softserve.academy.HW_14_Loggs.tests.SignInUITest" />
+      <option name="METHOD_NAME" value="verifyFieldsInputAndButtonEnabled(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (1)" />
-        <item itemvalue="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin" />
-        <item itemvalue="JUnit.SignInUITest" />
-        <item itemvalue="JUnit.SignInPositiveTest" />
-        <item itemvalue="JUnit.SignInNegativeTest.shouldVerifyEmptyFieldsErrorMessages" />
+        <item itemvalue="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled (1)" />
+        <item itemvalue="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled" />
+        <item itemvalue="JUnit.SignInNegativeTest.shouldVerifyErrorShownForWrongPassword" />
+        <item itemvalue="JUnit.SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword" />
+        <item itemvalue="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +208,15 @@
       <option name="presentableId" value="Default" />
       <updated>1759236726581</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW 10-13">
+      <option name="closed" value="true" />
+      <created>1760615893748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760615893748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,5 +229,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW 10-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 10-13" />
   </component>
 </project>

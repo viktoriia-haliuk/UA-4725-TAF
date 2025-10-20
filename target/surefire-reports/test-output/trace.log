@@ -1,0 +1,84 @@
+[ INFO] 15:51:08 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 15:51:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: tegusi1@yopmail.com
+[TRACE] 15:51:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Tegusi
+[TRACE] 15:51:25 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ INFO] 15:51:30 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Login verification successful for user: Tegusi
+[ INFO] 15:51:33 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 15:51:46 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: galpa2@yopmail.com
+[TRACE] 15:51:46 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Galpa
+[TRACE] 15:51:47 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ INFO] 15:51:48 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Login verification successful for user: Galpa
+[ INFO] 16:47:38 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 16:47:56 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: tegusi1@yopmail.com
+[TRACE] 16:47:56 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Tegusi
+[TRACE] 16:47:56 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ INFO] 16:48:00 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Login verification successful for user: tegusi1@yopmail.com
+[ INFO] 16:48:02 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 16:48:15 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: galpa2@yopmail.com
+[TRACE] 16:48:15 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Galpa
+[TRACE] 16:48:15 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ INFO] 16:48:16 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Login verification successful for user: galpa2@yopmail.com
+[ INFO] 16:49:57 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 16:50:12 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: tegusi1@yopmail.com
+[TRACE] 16:50:12 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Tegusi
+[TRACE] 16:50:13 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ERROR] 16:50:16 main SignInPositiveTest:tearThis:80 - Test FAILED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 16:50:20 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 16:50:34 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: galpa2@yopmail.com
+[TRACE] 16:50:34 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Galpa
+[TRACE] 16:50:35 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Verifying username after login...
+[ERROR] 16:50:36 main SignInPositiveTest:tearThis:80 - Test FAILED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 16:51:59 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 16:52:14 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: tegusi1@yopmail.com
+[TRACE] 16:52:14 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Tegusi
+[DEBUG] 16:52:14 main SignInPositiveTest:shouldVerifySuccessfulLogin:40 - Check: tegusi1@yopmail.com
+[TRACE] 16:52:15 main SignInPositiveTest:shouldVerifySuccessfulLogin:45 - Verifying username after login...
+[ERROR] 16:52:19 main SignInPositiveTest:tearThis:80 - Test FAILED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 16:52:24 main SignInPositiveTest:setUpBeforeEach:63 - Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 16:52:37 main SignInPositiveTest:shouldVerifySuccessfulLogin:38 - Running test with email: galpa2@yopmail.com
+[TRACE] 16:52:37 main SignInPositiveTest:shouldVerifySuccessfulLogin:39 - Expected username: Galpa
+[DEBUG] 16:52:37 main SignInPositiveTest:shouldVerifySuccessfulLogin:40 - Check: galpa2@yopmail.com
+[TRACE] 16:52:38 main SignInPositiveTest:shouldVerifySuccessfulLogin:45 - Verifying username after login...
+[ERROR] 16:52:39 main SignInPositiveTest:tearThis:80 - Test FAILED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 17:04:29 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi ===
+[ INFO] 17:04:43 main SignInPositiveTest:shouldVerifySuccessfulLogin:40 - Running login test for email: tegusi1@yopmail.com
+[TRACE] 17:04:43 main SignInPositiveTest:shouldVerifySuccessfulLogin:43 - Fetching password from environment for key: VALID_PASSWORD_1
+[TRACE] 17:04:43 main SignInPositiveTest:shouldVerifySuccessfulLogin:46 - Attempting login via SignInFunctions...
+[TRACE] 17:04:44 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Fetching displayed username from UI...
+[ERROR] 17:04:47 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 17:04:54 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa ===
+[ INFO] 17:05:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:40 - Running login test for email: galpa2@yopmail.com
+[TRACE] 17:05:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:43 - Fetching password from environment for key: VALID_PASSWORD_2
+[TRACE] 17:05:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:46 - Attempting login via SignInFunctions...
+[TRACE] 17:05:08 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Fetching displayed username from UI...
+[ERROR] 17:05:09 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 17:06:48 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi ===
+[ INFO] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:41 - Running login test for email: tegusi1@yopmail.com
+[TRACE] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Fetching password from environment for key: VALID_PASSWORD_1
+[TRACE] 17:07:06 main SignInPositiveTest:shouldVerifySuccessfulLogin:47 - Attempting login via SignInFunctions...
+[DEBUG] 17:07:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Sign-in completed for email: tegusi1@yopmail.com
+[TRACE] 17:07:07 main SignInPositiveTest:shouldVerifySuccessfulLogin:51 - Fetching displayed username from UI...
+[ERROR] 17:07:11 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [1] tegusi1@yopmail.com, VALID_PASSWORD_1, Tegusi
+[ INFO] 17:07:13 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa ===
+[ INFO] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:41 - Running login test for email: galpa2@yopmail.com
+[TRACE] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:44 - Fetching password from environment for key: VALID_PASSWORD_2
+[TRACE] 17:07:26 main SignInPositiveTest:shouldVerifySuccessfulLogin:47 - Attempting login via SignInFunctions...
+[DEBUG] 17:07:27 main SignInPositiveTest:shouldVerifySuccessfulLogin:49 - Sign-in completed for email: galpa2@yopmail.com
+[TRACE] 17:07:27 main SignInPositiveTest:shouldVerifySuccessfulLogin:51 - Fetching displayed username from UI...
+[ERROR] 17:07:28 main SignInPositiveTest:tearThis:80 - ❌ Test FAILED: [2] galpa2@yopmail.com, VALID_PASSWORD_2, Galpa
+[ INFO] 17:09:10 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [1] SignInTestData{email='tegusi1@yopmail.com', passwordKey='VALID_PASSWORD_1', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Tegusi', expectedGeneralErrorMessage=''} ===
+[ INFO] 17:09:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:20 - Running login test for email: tegusi1@yopmail.com
+[TRACE] 17:09:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:22 - Fetching password from environment for key: VALID_PASSWORD_1
+[TRACE] 17:09:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:25 - Attempting login via SignInFunctions...
+[DEBUG] 17:09:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:27 - Sign-in completed for email: tegusi1@yopmail.com
+[TRACE] 17:09:24 main SignInPositiveTest:shouldVerifySuccessfulLogin:29 - Fetching displayed username from UI...
+[ INFO] 17:09:27 main SignInPositiveTest:shouldVerifySuccessfulLogin:33 - Login verification successful for user: tegusi1@yopmail.com
+[ INFO] 17:09:27 main SignInPositiveTest:tearThis:85 - ✅ Test PASSED: [1] SignInTestData{email='tegusi1@yopmail.com', passwordKey='VALID_PASSWORD_1', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Tegusi', expectedGeneralErrorMessage=''}
+[ INFO] 17:09:30 main SignInPositiveTest:setUpBeforeEach:63 - === Starting test: [2] SignInTestData{email='galpa2@yopmail.com', passwordKey='VALID_PASSWORD_2', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Galpa', expectedGeneralErrorMessage=''} ===
+[ INFO] 17:09:42 main SignInPositiveTest:shouldVerifySuccessfulLogin:20 - Running login test for email: galpa2@yopmail.com
+[TRACE] 17:09:42 main SignInPositiveTest:shouldVerifySuccessfulLogin:22 - Fetching password from environment for key: VALID_PASSWORD_2
+[TRACE] 17:09:42 main SignInPositiveTest:shouldVerifySuccessfulLogin:25 - Attempting login via SignInFunctions...
+[DEBUG] 17:09:44 main SignInPositiveTest:shouldVerifySuccessfulLogin:27 - Sign-in completed for email: galpa2@yopmail.com
+[TRACE] 17:09:44 main SignInPositiveTest:shouldVerifySuccessfulLogin:29 - Fetching displayed username from UI...
+[ INFO] 17:09:45 main SignInPositiveTest:shouldVerifySuccessfulLogin:33 - Login verification successful for user: galpa2@yopmail.com
+[ INFO] 17:09:45 main SignInPositiveTest:tearThis:85 - ✅ Test PASSED: [2] SignInTestData{email='galpa2@yopmail.com', passwordKey='VALID_PASSWORD_2', expectedEmailMessage='', expectedPasswordMessage='', expectedUserName='Galpa', expectedGeneralErrorMessage=''}
