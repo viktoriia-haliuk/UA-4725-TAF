@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b91a06-b3ae-40e4-8ed3-452b944e2f5f" name="Changes" comment="HW 10-13">
+    <list default="true" id="35b91a06-b3ae-40e4-8ed3-452b944e2f5f" name="Changes" comment="HW 14">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_18_OKHTTP/BaseApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/HW_18_OKHTTP/EcoNewsCommentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/softserve/academy/OKHTTP01/EcoNewsCommentsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test-output/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test-output/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_14_Loggs/tests/SignInUITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/softserve/academy/HW_14_Loggs/tests/SignInUITest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.RectangleApp.executor": "Run",
+    "JUnit.EcoNewsCommentsTest.executor": "Run",
     "JUnit.NumberAnalysisTest.executor": "Run",
     "JUnit.RectangleTest.executor": "Run",
     "JUnit.SignInNegativeTest.executor": "Run",
@@ -108,8 +112,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ogaly\IdeaProjects\UA-4725-TAF\src\test\resources\testdata" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.softserve.academy.HW_18_OKHTTP" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled (1)">
+  <component name="RunManager">
     <configuration name="SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UA-4725-TAF" />
       <extension name="coverage">
@@ -192,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (3)" />
         <item itemvalue="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled (1)" />
         <item itemvalue="JUnit.SignInUITest.verifyFieldsInputAndButtonEnabled" />
         <item itemvalue="JUnit.SignInNegativeTest.shouldVerifyErrorShownForWrongPassword" />
         <item itemvalue="JUnit.SignInNegativeTest.shouldVerifyBothInvalidEmailAndPassword" />
-        <item itemvalue="JUnit.SignInPositiveTest.shouldVerifySuccessfulLogin (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760615893748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW 14">
+      <option name="closed" value="true" />
+      <created>1760980063256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760980063256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW 10-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 10-13" />
+    <MESSAGE value="HW 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 14" />
   </component>
 </project>
