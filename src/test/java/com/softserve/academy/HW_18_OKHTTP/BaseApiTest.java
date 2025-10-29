@@ -1,10 +1,22 @@
 package com.softserve.academy.HW_18_OKHTTP;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import okhttp3.*;
+
+import java.io.IOException;
 
 public abstract class BaseApiTest {
     protected static final OkHttpClient client = new OkHttpClient();
     protected static final String BASE_URL = "https://greencity.greencity.cx.ua";
+    protected final Gson gson = new Gson();
+
+    protected JsonArray extractPageArray (Response response)throws IOException {
+        String responseBody = response.body().string();
+        JsonObject json = gson.fromJson(responseBody, JsonObject.class);
+        return json.getAsJsonArray("page");
+    }
 
     // ================= GET =================
     protected Response sendGetRequest(String endpoint) throws Exception {

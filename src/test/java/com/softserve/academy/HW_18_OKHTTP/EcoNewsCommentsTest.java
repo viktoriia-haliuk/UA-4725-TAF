@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class EcoNewsCommentsTest extends BaseApiTest{
-    private final Gson gson = new Gson();
     private String buildActiveCommentsEndpoint(int ecoNewsId, int page, int size){
 return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, page, size);
     }
@@ -47,9 +46,8 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         try (Response response = sendGetRequest(endpoint)) {
             assertThat(response.code()).isEqualTo(200);
 
-            String responseBody = response.body().string();
-            JsonObject json = gson.fromJson(responseBody, JsonObject.class);
-            JsonArray comments = json.getAsJsonArray("page");
+
+            JsonArray comments = extractPageArray(response);
 
             assertThat(comments).isNotNull();
             assertThat(comments.size()).isGreaterThan(0);
@@ -66,9 +64,8 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         String endpoint = buildActiveCommentsEndpoint(124, 0, 2);
 
         try (Response response = sendGetRequest(endpoint)) {
-            String responseBody = response.body().string();
-            JsonObject json = gson.fromJson(responseBody, JsonObject.class);
-            JsonArray comments = json.getAsJsonArray("page");
+
+            JsonArray comments = extractPageArray(response);
 
             for (JsonElement element : comments) {
                 JsonObject comment = element.getAsJsonObject();
@@ -104,9 +101,8 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         String endpoint = buildActiveCommentsEndpoint(124, 0, 2);
 
         try (Response response = sendGetRequest(endpoint)) {
-            String responseBody = response.body().string();
-            JsonObject json = gson.fromJson(responseBody, JsonObject.class);
-            JsonArray comments = json.getAsJsonArray("page");
+
+            JsonArray comments = extractPageArray(response);
 
             for (JsonElement element : comments) {
                 String text = element.getAsJsonObject().get("text").getAsString();
@@ -125,9 +121,8 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         String endpoint = buildActiveCommentsEndpoint(124, 0, 2);
 
         try (Response response = sendGetRequest(endpoint)) {
-            String responseBody = response.body().string();
-            JsonObject json = gson.fromJson(responseBody, JsonObject.class);
-            JsonArray comments = json.getAsJsonArray("page");
+
+            JsonArray comments = extractPageArray(response);
 
             for (JsonElement element : comments) {
                 JsonObject comment = element.getAsJsonObject();
@@ -153,9 +148,8 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         String endpoint = buildActiveCommentsEndpoint(124, 0, 2);
 
         try (Response response = sendGetRequest(endpoint)) {
-            String responseBody = response.body().string();
-            JsonObject json = gson.fromJson(responseBody, JsonObject.class);
-            JsonArray comments = json.getAsJsonArray("page");
+
+            JsonArray comments = extractPageArray(response);
 
             for (JsonElement element : comments) {
                 String status = element.getAsJsonObject().get("status").getAsString();
@@ -173,6 +167,7 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
         String endpoint = buildActiveCommentsEndpoint(124, 0, 2);
 
         try (Response response = sendGetRequest(endpoint)) {
+
             String responseBody = response.body().string();
             JsonObject json = gson.fromJson(responseBody, JsonObject.class);
 
@@ -181,6 +176,5 @@ return String.format("/eco-news/%d/comments/active?page=%d&size=%d", ecoNewsId, 
             assertThat(json.has("totalPages")).isTrue();
         }
     }
-
 
 }
